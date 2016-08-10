@@ -3,7 +3,7 @@ from time import sleep
 
 
 def main():
-    p = Pinger(timeout=1)
+    p = Pinger(timeout=5)
     p.loop()
     while True:
         try:
